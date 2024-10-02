@@ -1,0 +1,99 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling with a Gradient Background */
+body {
+  font-family: 'Arial', sans-serif;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(34,86,15,1) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Container for centering the login box */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Glassmorphism effect for the login box */
+.login-box {
+  background: rgba(255, 255, 255, 0.15); /* Translucent background */
+  backdrop-filter: blur(15px); /* Glass blur effect */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  color: white;
+  text-align: center;
+}
+
+/* Heading styling */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Input container styling */
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent input field */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+}
+
+.input-container input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(45deg, #ff6a00, #ee0979); /* Gradient color for button */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ee0979, #ff6a00); /* Reverse gradient on hover */
+  box-shadow: 0 10px 20px rgba(255, 105, 135, 0.5); /* Button highlight */
+  transform: translateY(-3px); /* Lift effect */
+}
+
+/* Register link styling */
+.register-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-link a {
+  color: #ffcc33; /* Gold color for the register link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

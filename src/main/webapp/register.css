@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+  /* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Container for the form */
+.container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 40px 30px;
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100%;
+  max-width: 400px; /* Max width for the form */
+  text-align: center; /* Center text in container */
+}
+
+/* Heading Style */
+h1 {
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark gray heading */
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px; /* Space between form groups */
+  text-align: left; /* Align text to the left */
+}
+
+/* Label Styles */
+label {
+  display: block; /* Block display for labels */
+  margin-bottom: 8px; /* Space below labels */
+  font-size: 14px;
+  color: #555; /* Medium gray for labels */
+}
+
+/* Input Field Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 15px;
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Rounded input fields */
+  font-size: 16px;
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Highlight Effect on Input Fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #4a90e2; /* Blue border on focus */
+  background-color: rgba(74, 144, 226, 0.1); /* Light blue background on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+  width: 100%;
+  background-color: #28a745; /* Green background for the submit button */
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px; /* Rounded button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect on Submit Button */
+input[type="submit"]:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Login Link Styles */
+.login-link {
+  margin-top: 20px; /* Space above the link */
+}
+
+/* Login Button Styles */
+.login-link button {
+  width: 100%; /* Full width */
+  background-color: #007bff; /* Blue background for the login button */
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px; /* Rounded button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect on Login Button */
+.login-link button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+  
